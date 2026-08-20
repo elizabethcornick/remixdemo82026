@@ -9,28 +9,24 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-url: https://eugestumm.github.io
+url: https://elizabethcornick.github.io
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-baseurl: /CollectionBuilder-Remix
+baseurl: /remixdemo82026
 # location of code, the full url to your github repository
-source-code: https://github.com/eugestumm/CollectionBuilder-Remix
+source-code: https://elizabethcornick.github.io/remixdemo82026/
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: 'CollectionBuilder-Remix: Collection Sample'
+title: 'CollectionBuilder-Remix: Collection Demo'
 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Based on Gender Inclusive Spanish Digital Archive
+tagline: My Demo Digital Archive
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This collection is a pedagogical sample based on the <a href=\"https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/\"\
-  >Gender-Inclusive Spanish Digital Archive</a> to help users familiarize themselves
-  with the functions of CollectionBuilder-Remix. To learn how to use this project,
-  check out the <a href=\"https://github.com/eugestumm/CollectionBuilder-Remix/wiki/1.-Home\"\
-  >project wiki</a>."
+description: "This collection is a pedagogical demo sample."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Euge Stumm
 
@@ -38,8 +34,8 @@ author: Euge Stumm
 site_languages:
 - lang_id: 'en'
   lang_display: 'English'
-- lang_id: 'es'
-  lang_display: 'Español'
+- lang_id: 'none'
+  lang_display: 'none'
   lang_site_title: 'CollectionBuilder-Remix: Colección de Demostración'
   lang_site_tagline: Basado en el Archivo Digital de Español No Binario
   lang_site_description: "Esta colección es una demostración pedagógica basada en
@@ -51,10 +47,10 @@ site_languages:
 # Set paths, language ids, and permalinks for pages
 defaults:
 - scope:
-    path: 'es'
+    path: 'none'
   values:
-    permalink: /es/:basename
-    lang: 'es'
+    permalink: /none/:basename
+    lang: 'none'
 - scope:
     path: 'pages'
   values:
